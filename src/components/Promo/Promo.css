@@ -1,0 +1,107 @@
+.promo {
+  margin-top: 26px;
+  position: relative;
+  background: url(../../images/city-image.png) no-repeat top center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.promo__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.promo__rectangle {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.promo__rectangle-image {
+  width: 140px;
+}
+
+.promo__description {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px 20px;
+  border-left: 2px solid #fcd54c;
+}
+.promo__description:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 18%;
+  height: 2px;
+  margin-left: -4.5%;
+  background: #fcd54c;
+}
+
+.promo__text {
+  margin: 0;
+  font-size: 60px;
+}
+
+.promo__button {
+  display: flex;
+  position: relative;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+}
+.promo__link-item:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.promo__button:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 18%;
+  height: 2px;
+  margin-left: -6.5%;
+  background: #fcd54c;
+}
+
+.promo__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.promo__container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px 20px 20px;
+  gap: 80px;
+  background-color: #272727;
+}
+.promo__container-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.promo-container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+  line-height: 13px;
+}
+.promo-container-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 13px;
+}
+.promo-container-number {
+  font-size: 50px;
+  line-height: 13px;
+}

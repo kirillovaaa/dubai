@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container {
+  display: flex;
+  gap: 50px;
+}
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: -37px;
+  margin-top: 4px;
+}
+.header__logo-name {
+  margin: 0;
+  font-size: 30px;
+}
+.header__logo-description {
+  margin: 0;
+  color: #929292;
+  font-size: 11px;
+  line-height: 13px;
+}
+.header__rectangle {
+  display: flex;
+}
+.header__rectangle-image {
+  width: 60px;
+  height: 63px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+.header__nav-button {
+  background-color: transparent;
+  border: none;
+}
+.header__contacts {
+  display: flex;
+  gap: 20px;
+}
+.header__nav-button {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.header__nav-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.header__consultation-button {
+  background-color: #fcd54c;
+  font-size: 14px;
+  width: 165px;
+  height: 35px;
+  margin-top: 5px;
+  font-weight: 600;
+  border: none;
+  color: #000000;
+}
+.header__consultation-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.header__lang-buttons {
+  display: flex;
+  gap: 8px;
+}
+.header__lang-button {
+  background-color: transparent;
+  border: none;
+  color: #929292;
+  font-size: 14px;
+}
+.header__lang-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.header__number {
+  font-size: 14px;
+}
