@@ -3,6 +3,8 @@ import Header from "../Header/Header";
 import Promo from "../Promo/Promo";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
+import Contact from "../Contact/Contact";
+import Architecture from "../Architecture/Architecture";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Promo />
       <Projects />
       <About />
+      <Contact />
+      <Architecture />
     </main>
   );
 };

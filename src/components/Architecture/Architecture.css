@@ -1,0 +1,106 @@
+.architecture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.architecture__heading {
+  display: flex;
+  justify-content: space-between;
+  width: 840px;
+}
+.architecture__heading-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+}
+.architecture__heading-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.architecture__heading-button {
+  background: transparent;
+  border: none;
+  color: #929292;
+  font-weight: 600;
+  font-size: 14px;
+}
+.architecture__items {
+  display: flex;
+  flex-direction: row;
+  width: 840px;
+  gap: 30px;
+}
+.architecture__heading-icon {
+  width: 8px;
+  height: 15px;
+}
+
+.architecture__item {
+  position: relative;
+}
+.architecture__item-name {
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 50px 20px;
+  font-size: 16px;
+}
+.architecture__item-image {
+  width: 100%;
+}
+
+.architecture__about {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 0px 20px;
+  border-left: 1px solid #fcd54c;
+  border-top: 1px solid #fcd54c;
+  border-right: 1px solid #fcd54c;
+  border-bottom: 1px solid #fcd54c;
+  position: relative;
+  width: 350px;
+}
+.architecture__about-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 13px;
+  line-height: 26px;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 30px 0px;
+}
+
+.architecture__about-button {
+  color: #fcd54c;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+}
+
+.architecture__about-icon {
+  width: 10px;
+  height: 20px;
+}
+
+.architecture__description {
+  color: #929292;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.architecture__title {
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.architecture__data {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
