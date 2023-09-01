@@ -1,0 +1,87 @@
+.footer {
+  border-top: 1px solid #ffffff4d;
+  padding: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  gap: 50px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: -37px;
+  margin-top: 4px;
+}
+.footer__logo-name {
+  margin: 0;
+  font-size: 30px;
+}
+.footer__logo-description {
+  margin: 0;
+  color: #929292;
+  font-size: 11px;
+  line-height: 13px;
+}
+.footer__rectangle {
+  display: flex;
+  justify-content: center;
+}
+.footer__rectangle-image {
+  width: 60px;
+  height: 63px;
+}
+
+.footer__wrapper {
+  display: flex;
+  gap: 70px;
+  justify-content: space-around;
+  border-bottom: 1px solid #ffffff4d;
+  padding: 0 0 80px;
+}
+.footer__wrapper-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.footer__container-item {
+  display: flex;
+  padding: 0;
+  gap: 20px;
+  list-style-type: none;
+  display: flex;
+  color: #e8e8e8;
+  flex-direction: column;
+}
+.footer__wrapper-item-title {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.footer__wrapper-item-button {
+  background-color: #fcd54c;
+  font-size: 14px;
+  width: 165px;
+  height: 35px;
+  margin-top: 5px;
+  font-weight: 600;
+  border: none;
+  color: #000000;
+  position: absolute;
+  bottom: 0;
+}
+.footer__wrapper-item-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.footer__wrapper-item-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__wrapper-item-adress {
+  margin: 0;
+}
+.footer__wrapper-item-information {
+  margin: 0;
+}

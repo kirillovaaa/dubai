@@ -28,6 +28,10 @@
   font-weight: 600;
   font-size: 14px;
 }
+.architecture__heading-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
 .architecture__items {
   display: flex;
   flex-direction: row;
@@ -37,6 +41,10 @@
 .architecture__heading-icon {
   width: 8px;
   height: 15px;
+}
+.architecture__heading-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .architecture__item {
@@ -81,10 +89,18 @@
   background: transparent;
   border: none;
 }
+.architecture__about-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
 
 .architecture__about-icon {
   width: 10px;
   height: 20px;
+}
+.architecture__about-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .architecture__description {
