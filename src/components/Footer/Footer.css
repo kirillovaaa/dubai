@@ -52,6 +52,10 @@
   color: #e8e8e8;
   flex-direction: column;
 }
+.footer__container-item:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 .footer__wrapper-item-title {
   margin: 0;
   margin-bottom: 40px;
@@ -83,5 +87,22 @@
   margin: 0;
 }
 .footer__wrapper-item-information {
+  margin: 0;
+}
+.footer__copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copyright-links {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+.footer__copyright-text {
   margin: 0;
 }

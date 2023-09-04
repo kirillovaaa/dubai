@@ -1,6 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import rectangle from "../../images/rectangle.svg";
+import facebook from "../../images/facebook.svg";
+import twitter from "../../images/twitter.svg";
+import instagram from "../../images/instagram.svg";
+import youtube from "../../images/youtube.svg";
+import linkedin from "../../images/linkedin.svg";
 
 function List() {
   return (
@@ -84,6 +89,26 @@ function List() {
             </button>
           </div>
         </div>
+      </div>
+      <div className="footer__copyright">
+        <p className="footer__copyright-text">Copyright © 2022 Dubai Realty</p>
+        <ul className="footer__copyright-links">
+          <li className="footer__copyright-link">
+            <img src={facebook} className="promo__link-image" alt="facebook" />
+          </li>
+          <li className="footer__copyright-link">
+            <img src={twitter} className="promo__link-image" alt="facebook" />
+          </li>
+          <li className="footer__copyright-link">
+            <img src={youtube} className="promo__link-image" alt="facebook" />
+          </li>
+          <li className="footer__copyright-link">
+            <img src={instagram} className="promo__link-image" alt="facebook" />
+          </li>
+          <li className="footer__copyright-link">
+            <img src={linkedin} className="promo__link-image" alt="facebook" />
+          </li>
+        </ul>
       </div>
     </footer>
   );
