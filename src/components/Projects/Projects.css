@@ -103,3 +103,9 @@
   color: black;
   position: absolute;
 }
+
+@media screen and (max-width: 1024px) {
+  .projects__item-container {
+    display: none;
+  }
+}

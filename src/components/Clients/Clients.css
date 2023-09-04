@@ -1,0 +1,121 @@
+.clients {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.clients__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+.clients__item-right {
+  display: flex;
+  position: absolute;
+  opacity: 30%;
+  right: -330px;
+  flex-direction: column;
+  width: 500px;
+  height: 290px;
+  padding: 50px 30px 40px 30px;
+  border-left: 1px solid #fcd54c;
+  border-top: 1px solid #fcd54c;
+  border-right: 1px solid #fcd54c;
+  border-bottom: 1px solid #fcd54c;
+}
+.clients__item-left {
+  display: flex;
+  position: absolute;
+  opacity: 30%;
+  left: -330px;
+  flex-direction: column;
+  width: 500px;
+  height: 290px;
+  padding: 50px 30px 40px 30px;
+  border-left: 1px solid #fcd54c;
+  border-top: 1px solid #fcd54c;
+  border-right: 1px solid #fcd54c;
+  border-bottom: 1px solid #fcd54c;
+}
+.clients__item {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 290px;
+  padding: 50px 30px 40px 30px;
+  border-left: 1px solid #fcd54c;
+  border-top: 1px solid #fcd54c;
+  border-right: 1px solid #fcd54c;
+  border-bottom: 1px solid #fcd54c;
+}
+
+.clients__wrapper-avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.clients__wrapper-image {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: -130px;
+}
+.clients__wrapper-quote {
+  position: absolute;
+  right: 0;
+  margin-top: 30px;
+}
+.clients__wrapper-about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.clients__wrapper-description {
+  margin: 0;
+  color: #929292;
+}
+.clients__wrapper-name {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .clients__item {
+    width: 350px;
+    height: 190px;
+    padding: 50px 10px 0 20px;
+  }
+  .clients__wrapper {
+    gap: 10px;
+  }
+  .clients__wrapper-about {
+    gap: 10px;
+    margin-top: 0;
+  }
+  .clients__wrapper-image {
+    width: 100px;
+    height: 100px;
+    top: -110px;
+  }
+  .clients__wrapper-description {
+    font-size: 15px;
+  }
+
+  .clients__wrapper-name {
+    font-weight: 700;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .clients__item-right,
+  .clients__item-left {
+    display: none;
+  }
+}

@@ -5,6 +5,7 @@ import Projects from "../Projects/Projects";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Architecture from "../Architecture/Architecture";
+import Clients from "../Clients/Clients";
 import Footer from "../Footer/Footer";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <Contact />
       <Architecture />
+      <Clients />
       <Footer />
     </main>
   );
